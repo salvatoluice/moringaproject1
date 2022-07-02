@@ -596,6 +596,18 @@
 
 
 
+/* Fooyer section styling */
+
+footer {
+    background: #0F298B;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 200px;
+    height: 700px;
+}
+
+
 
 
 
