@@ -418,7 +418,142 @@
     padding-right: 10px;
 }
 
+/* features section styling */
+.features {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 40px;
+}
 
+.feature_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature_text h1 {
+    color: navy;
+    font-size: 34px;
+    text-align: center;
+    align-items: center;
+}
+
+.feature_text p {
+    color: black;
+    font-size: 28px;
+    top: 0;
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.features_content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.features_content-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    width: 100%;
+}
+
+.features1 {
+    width: 400px;
+    height: 250px;
+}
+
+.features1 img {
+    width: 550px;
+    height: 250px;
+}
+.features-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.features-content .left-content h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.features-content .left-content p {
+    color: gray;
+    font-size: 20px;
+    padding-top: 0rem;
+}
+
+.features-content .right-content {
+    text-align: right;
+    margin-left: 200px;
+}
+
+.right-content p {
+    color: black;
+    font-size: 17px;
+}
+
+.right-content small {
+    color: black;
+    font-size: 13px;
+}
+
+
+
+.features2 {
+    width: 400px;
+    height: 250px;
+}
+
+.features2 img {
+    width: 550px;
+    height: 250px;
+}
+
+
+.features3 {
+    width: 400px;
+    height: 250px;
+}
+
+.features3 img {
+    width: 550px;
+    height: 250px;
+}
+
+
+.button2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.button2 button {
+    top: 6rem;
+    margin-top: 7rem;
+    background-color: #2549D3;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    width: 160px;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    
+    
+    outline: none;
+    cursor: pointer;
+    
+
+    /* ;
+    color: #FAFAFA;
+    /* font-family: var(--font-base); */
+    /*font-weight: 700;
+    
+    */
+}
 
 
 
