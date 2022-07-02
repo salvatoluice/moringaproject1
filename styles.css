@@ -1,0 +1,85 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo {
+    display: flex;
+    flex: 2;
+    color: black;
+    font-family: Oleo Script;
+}   
+
+.navbar-logo h2 {
+    color: #000;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.navbar-links {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-links ul li {
+    list-style: none;
+    font-size: 24px;
+    color: gray;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 40px;
+}
+
+.button1 {
+    width: 160px;
+    margin-top: 9px;
+    margin-right: 40px;
+    height: 40px;
+}
+
+.button1 button {
+    background-color: blue;
+    color: #FAFAFA;
+    /* font-family: var(--font-base); */
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*Home section styling */
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header .image {
+    display: flex;
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
