@@ -558,6 +558,46 @@
 
 
 
+/* reviews and testimonials section styling */
+
+
+.reviews {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews .reviews-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews .reviews-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0F298B;
+}
+
+.reviews .reviews-text p {
+    font-size: 28px;
+    font-weight: normal;
+    color: black;
+}
+
+
+.reviews-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    gap: 5rem;
+}
+
+
+
+
+
 
 font-family: 'Space Grotesk', sans-serif;
 font-family: 'Oleo Script', cursive;
