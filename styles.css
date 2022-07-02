@@ -73,6 +73,11 @@
     cursor: pointer;
 }
 
+button:hover {
+    background: #FAFAFA;
+    color: #2549D3;
+}
+
 /*Home section styling */
 .header {
     display: flex;
@@ -131,6 +136,11 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+button:hover {
+    background: #FAFAFA;
+    color: #2549D3;
 }
 
 .image {
@@ -553,6 +563,12 @@
     /*font-weight: 700;
     
     */
+}
+
+
+button:hover {
+    background: #FAFAFA;
+    color: #2549D3;
 }
 
 
