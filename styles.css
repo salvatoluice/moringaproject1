@@ -669,6 +669,8 @@ footer {
 .link1 li {
     list-style: none;
     font-size: 17px;
+    padding-top: 2rem;
+    cursor: pointer;
 }
 
 .link2 {
@@ -683,6 +685,8 @@ footer {
 .link2 li {
     list-style: none;
     font-size: 17px;
+    padding-top: 2rem;
+    cursor: pointer;
 }
 
 .link3 {
@@ -697,15 +701,17 @@ footer {
 .link3 li {
     list-style: none;
     font-size: 17px;
+    padding-top: 2rem;
+    cursor: pointer;
 }
 
 
 
 
-
+/* 
 font-family: 'Space Grotesk', sans-serif;
-font-family: 'Oleo Script', cursive;
+font-family: 'Oleo Script', cursive; */
 
 /*#2549D3, #0F298B, #FAFAFA*/
 
-/*  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 */
+ /* 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 */
