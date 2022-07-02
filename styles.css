@@ -212,6 +212,138 @@
     flex-direction: row;
 }
 
+.products .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main p {
+    font-size: 30px;
+    color: navy;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.main h1 {
+    color: navy;
+    font-size: 48px;
+    margin-left: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main .first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.first h2 {
+    color: navy;
+    font-size: 48px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.first p {
+    font-size: 30px;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: -20px;
+    padding-top: 3px;
+
+}
+
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+
+.second .findH {
+    background: whitesmoke;
+    width: 390px;
+    border-radius: 12px;
+}
+
+.findH img {
+    width: 40px;
+    height: 80px;
+}
+
+.findH h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.findH p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: black;
+
+}
+
+
+.second .makeP {
+    background: whitesmoke;
+    width: 390px;
+    border-radius: 12px;
+}
+
+.makeP img {
+    width: 200px;
+    height: 200px;
+}
+ 
+.makeP h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.makeP p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: black;
+
+}
+
+
+.second .makeO {
+    background: whitesmoke;
+    width: 390px;
+    border-radius: 12px;
+}
+
+.makeO img {
+    width: 120px;
+    height: 200px;
+}
+.makeO h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.makeO p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: black;
+
+}
+
 
 
 
