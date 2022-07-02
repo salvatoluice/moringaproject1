@@ -153,17 +153,64 @@
     display: flex;
     flex-direction: row;
     width: 1200px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     background: whitesmoke;
     margin-left: 300px;
     margin-top: 50px;
     border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
 
 }
 
+.cta .items {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
 
+.location {
+    color: #2549D3;
+    font-size: 25px;
+    align-items: flex-start;
+    margin-left: 3rem;
+}
+
+.location p {
+    color: black;
+    font-size: 20px;
+}
+.type {
+    color: #2549D3;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.type p {
+    color: black;
+    font-size: 20px;
+}
+.price {
+    color: #2549D3;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.price p {
+    color: black;
+    font-size: 20px;
+}
+
+.cta button {
+    margin-left: 4rem;
+    right: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
 
 
 
