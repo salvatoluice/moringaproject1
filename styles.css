@@ -629,6 +629,60 @@ footer {
     margin-left: 7rem;
 }
 
+.desc h2 {
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: light;
+}
+.desc p {
+    color: #FAFAFA;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+.link1 {
+    color: #FAFAFA;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.link1 h1 {
+    font-size: 34px;
+}
+
+.link1 li {
+    list-style: none;
+    font-size: 17px;
+}
+
+.link2 {
+    color: #FAFAFA;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.link2 h1 {
+    font-size: 34px;
+}
+
+.link2 li {
+    list-style: none;
+    font-size: 17px;
+}
+
+.link3 {
+    color: #FAFAFA;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.link3 h1 {
+    font-size: 34px;
+}
+
+.link3 li {
+    list-style: none;
+    font-size: 17px;
+}
+
 
 
 
