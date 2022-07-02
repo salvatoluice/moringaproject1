@@ -147,6 +147,23 @@
 
 
 
+/*cta styling*/
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: whitesmoke;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+
 
 
 
