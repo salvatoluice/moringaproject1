@@ -345,6 +345,83 @@
 }
 
 
+/**SECTION 3 STYLES**/
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 20px;
+}
+.reasons .image {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    margin-left: 30px;
+}
+
+.reasons .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.reasons .content h1 {
+    font-size: 42px;
+    color: navy;
+    /* text-align: center;
+    align-items: center; */
+    padding-top: 20px;
+}
+
+.reasons .content p {
+    color: black;
+    font-size: 30px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+}
+
+.lists .lists1 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.lists .lists1 h4 {
+    color: black;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.lists .lists1 h4 i {
+    color: navy;
+    padding-right: 10px;
+}
+
+.lists .lists2 {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 100px;
+}
+
+.lists .lists2 h4 {
+    color: black;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.lists .lists2 h4 i {
+    color: navy;
+    padding-right: 10px;
+}
+
+
+
+
+
 
 
 font-family: 'Space Grotesk', sans-serif;
