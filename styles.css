@@ -13,8 +13,10 @@
 
 .navbar-logo h2 {
     color: #000;
+    font-weight: normal;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
+    font-family: 'Oleo Script', cursive;
 }
 
 .navbar-links {
@@ -31,13 +33,22 @@
 .navbar-links ul li {
     list-style: none;
     font-size: 24px;
-    color: gray;
+    color: black;
 }
 
-.navbar-links ul li a {
+.navbar-links ul li a  {
     text-decoration: none;
-    color: gray;
+    color: black;
     margin-left: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar-links ul li a.active {
+    color: #2549D3;
+}
+
+.navbar-links ul li a:hover {
+    color: #2549D3;
 }
 
 .button1 {
@@ -48,7 +59,7 @@
 }
 
 .button1 button {
-    background-color: blue;
+    background-color: #2549D3;
     color: #FAFAFA;
     /* font-family: var(--font-base); */
     font-weight: 700;
@@ -83,5 +94,66 @@
     width: 100%;
     height: 100%;
 }
+
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.text p {
+    font-size: 70px;
+    font-weight: bold;
+    color: #2549D3;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.text small {
+    font-size: 40px;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.text .button1 button {
+    background-color: #2549D3;
+    color: #FAFAFA;
+    /* font-family: var(--font-base); */
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    width: 160px;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    margin-right: 50px;
+}
+
+.image img {
+    /* height: 80%; */
+    margin-top: 6rem;
+    height: 450px;
+}
+
+
+
+
+
+
+
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Oleo Script', cursive;
+
+/*#2549D3, #0F298B, #FAFAFA*/
 
 /*  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 */
